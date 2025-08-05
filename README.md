@@ -37,14 +37,14 @@ class GraphState(TypedDict):
     iterations: int
 ```
 
-### 🔍 Use Cases
+## 🔍 Use Cases
  - 🧑‍💻 Coding assistants
 
  - ✍️ Documentation generators
 
  - 🧪 Code-testing bots
 
-### 🛠️ Tech Stack
+## 🛠️ Tech Stack
  - LangGraph for stateful execution flows
 
  - LangChain for prompts and LLM integration
