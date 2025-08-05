@@ -37,3 +37,21 @@ class GraphState(TypedDict):
     messages: Annotated[list[AnyMessage], add_messages]
     generation: str
     iterations: int
+```
+
+### 🔍 Use Cases
+ - 🧑‍💻 Coding assistants
+
+ - ✍️ Documentation generators
+
+ - 🧪 Code-testing bots
+
+### 🛠️ Tech Stack
+ - LangGraph for stateful execution flows
+
+ - LangChain for prompts and LLM integration
+
+ - Mistral AI (Codestral) as LLM backend
+
+ - Pydantic for typed output schemas
+
