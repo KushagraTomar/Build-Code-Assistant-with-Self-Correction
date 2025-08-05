@@ -2,7 +2,6 @@
 
 This project implements an intelligent code-generation assistant using [LangGraph](https://github.com/langchain-ai/langgraph), powered by **Mistral AI's `codestral-latest` model**. It leverages structured prompts, deterministic LLM output, and stateful graph-based orchestration to generate reliable and executable code from natural language instructions.
 
----
 
 ## 🚀 Features
 
@@ -14,7 +13,6 @@ This project implements an intelligent code-generation assistant using [LangGrap
 - 💬 **Custom prompt templates**: Controls LLM behavior to generate well-structured, import-ready, and executable code.
 - 🔄 **Error-aware flow**: Uses `error` flag and `iterations` counter in the state to support retries and conditional branching.
 
----
 
 ## 🧱 Project Architecture
 
